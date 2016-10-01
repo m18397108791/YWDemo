@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Test
+//
+//  Created by XW on 16/10/1.
+//  Copyright © 2016年 yw. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+/**
+ *  图片和文件访问路径
+ */
+#define KImagesURL @"http://app.ymrtzkg.com:8082/ymr/images"
+
+#import "UIImageView+WebCache.h"
+#import "SDAutoLayout.h"
+
+#define screen_width [UIScreen mainScreen].bounds.size.width
+//获取设备的物理宽度
+#define screen_height [UIScreen mainScreen].bounds.size.height
+
+
+
+#endif /* PrefixHeader_pch */
